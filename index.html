@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="voyage.css">
+    <title>AirCroisiere compagnie</title>
+</head>
+<body>
+    <div class="navbar">
+    <div class="logo">
+        <img src="images/distrologo.jpg" alt="">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="ablo.goita2002@gmail.com"><img src="" alt="">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+    <header>
+        <!--Titre de la page-->
+        <h1 class="titre">AirCroisieres</h1>
+        <!--Slogan-->
+        <h3 class="slogan">La tête dans les nuages</h3>
+         <!--formulaire de la recherche-->
+         <form action="recherche.php" method="post">
+            <div class="form_group">
+              <label for="provenance">Ville de départ</label>
+              <input type="text" name="provenance" id="provenance"placeholder="Paris">
+  
+              <label for="destination">Destination</label>
+              <input type="text" name="destination" id="destination"placeholder="Canada">
+          </div>
+  
+          <div class="form_group">
+              <label for="depart">Date de départ</label>
+              <input type="date" name="depart" id="depart" placeholder="">
+  
+              <label for="retour">Date de retour</label>
+              <input type="date" name="retour" id="retour" placeholder="">
+       </div>
+      <div class="form_group">
+              <label for="adultes">Nombre d'adultes</label>
+              <select name="adultes" id="adultes">
+                  <option selected="selected">0 Adulte</option>
+                  <option>1 Adulte</option>
+                  <option>2 Adultes</option>
+                  <option>3 Adultes</option>
+                  <option>4 Adultes</option>
+                  <option>5 Adultes</option>
+                  <option>6 Adultes</option>
+              </select>
+  
+              <label for="enfants">Nombre d'enfants</label>
+              <select name="enfants" id="enfants">
+                  <option selected="selected">0 Enfant</option>
+                  <option>1 Enfant</option>
+                  <option>2 Enfant</option>
+                  <option>3 Enfant</option>
+                  <option>4 Enfant</option>
+                  <option>5 Enfant</option>
+                  <option>6 Enfant</option>
+              </select>
+  
+              <label for="type">Categorie</label>
+              <select name="type" id="type">
+                <option selected="selected">classe Economique</option>
+                  <option>classe Affaires</option>
+              </select>
+              
+          </div>
+          <div class="form_submit">
+              <input type="submit" value="Recherche" name="recherche" id="recherche">
+          </div>
+       </form>
+        </header>
+          <!--Une section avec les destinations -->
+          <section id="destinations">
+              <h3>Les différents offres du prix selon votre âge</h3>
+  
+          <div class="destination_group">
+              <!--destination1-->
+              <div class="destination_item box_1">
+                  <div class="overlay">
+                  <span class="nom">Jakarta</span>
+                  <i class="prix">646€</i>
+              </div>
+          </div>
+          <!--destination2-->
+          <div class="destination_item box_2">
+              <div class="overlay">
+              <span class="nom">Dubai</span>
+              <i class="prix">420€</i>
+              </div>
+          </div>
+          <!--destination3-->
+          <div class="destination_item box_3">
+              <div class="overlay">
+              <span class="nom">Moscou</span>
+              <i class="prix">419€</i>
+          </div>
+          </div>
+          <!--destination4-->
+          <div class="destination_item box_4">
+              <div class="overlay">
+              <span class="nom">Venise</span>
+              <i class="prix">45€</i>
+          </div>
+          </div>
+          <!--destination5-->
+          <div class="destination_item box_5">
+              <div class="overlay">
+              <span class="nom">New york</span>
+              <i class="prix">385€</i>
+          </div>
+          </div>
+          <!--destination6-->
+          <div class="destination_item box_6">
+              <div class="overlay">
+              <span class="nom">Ottawa</span>
+              <i class="prix">339€</i>
+          </div>
+          </div>
+          <!--destination5-->
+          <div class="destination_item box_7">
+              <div class="overlay">
+              <span class="nom">Pékin</span>
+              <i class="prix">605€</i>
+           </div>
+           </div>
+           <!--destination6-->
+          <div class="destination_item box_8">
+              <div class="overlay">
+              <span class="nom">Barcelone</span>
+              <i class="prix">40€</i>
+          </div>
+          </div>
+          <!--destination8-->
+          <div class="destination_item box_9">
+              <div class="overlay">
+              <span class="nom">Location de vehicule</span>
+              <i class="prix">55€</i>
+           </div>
+          </div>
+       </div>
+      </section>
+      <!--publite-->
+      <h1 class="Publicite">Publicités</h1>
+      <div class="row">
+          <H3>Comment trouver des billets pas cher avec AirCroisières </h3>
+      
+      </div>
+      <div class="row_5">
+          <p>Vous prévoyez de partir en voyage en Galaxie et vous recherchez un 
+             AirCroisières pas cher ? Vous souhaitez vous faire plaisir pendant vos 
+             vacances et n'avez pas envie de sacrifier tout votre budget dans vos billets et Vous êtes au bon endroit ! Avec AirCroisières vous 
+             bénéficiez de l'expertise de l'agence de voyage et profitez des 
+             meilleurs tarifs pour vos billets de AirCroisières. Grâce à notre moteur de 
+             recherche  AirCroisières vous permet en effet de comparer les offres de 
+             centaines de compagnies grâce à des filtres bien pensés. Essayez, vous 
+             verrez, ce n'est pas un hasard si 18 millions de voyageurs nous choisissent 
+             chaque année !</p>
+      </div>
+      <div class="row">
+          <h3>Comment trouver AirCroisières pas cher ?</h3>
+      </div>
+      <div class="row_5">
+          <p>Trouvez des billets de AirCroisières pas chers pour vos prochaines 
+             vacances ou pour un week-end avec AirCroisières. Sélectionnez avec 
+             notre moteur de recherche la ville d'origine, la ville de destination et les dates 
+             qui correspondent à vos besoins et cliquez sur rechercher AirCroisières. Vous pourrez trouver des offres de AirCroisières pas chers avec 
+             notre AirCroisières traditionnelles vers la destination de votre choix.</p>
+      </div>
+      <div class="row">
+          <h3>Comment économiser lors de la recherche de AirCroisières ?</h3>
+      </div>
+      <div class="row_5">
+          <p>Gardez à l'esprit que vous économiserez d'avantage dans le prix de votre 
+             billet de AirCroisières  si vous choisissez le AirCroisières  aller-retour. Si vous 
+             ne cherchez pas de billets pour une heure précise, essayez l'option de 
+             moins cher. Dans la section heure de départ et d'arrivée afin de trouver le 
+             billet le moins cher. En faisant une recherche le plus tôt possible, vous 
+             trouverez les prix les moins chers pour vos combinaisons de AirCroisières. Vous 
+             pouvez également faire une réservation vos AirCroisières  de dernière minute selon la destination.</p>
+      </div>
+      <footer class="conn">
+          <div class="reseaux">
+              <h3>Observation les réseaux sociaux</h3>
+          </div>
+          <div class="reseau">
+            <nav>
+                <ul>
+                    <li><a href="https://www.facebook.com/"><img src="/images/logo_face.jpg" alt=""></a></li>
+                    <li><a href="https://twitter.com/Twitter"><img src="/images/logo_twitter.jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/"><img src="/images/logo_insta.jpg" alt=""></a></li>
+                </ul>
+            </nav>
+          </div>
+          <div class="reseau">
+            <nav>
+                <ul>
+                    <li><a href="https://www.tiktok.com/fr/"><img src="/images/logo_tiktok.jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/"><img src="/images/logo_youtube.jpg" alt=""></a></li>
+                    <li><a href="https://www.linkedin.com/feed/"><img src="/images/logo_linkedin.jpg" alt=""></a></li>
+                </ul>
+            </nav>
+          </div>
+          <footer>
+          <hr>
+          <div class="com">
+          <p>&copy; 2023 - AirCroisières - <a href="https://www.voyage-prive.com/offres/voyage-all-inclusive?cid=50961&affid=dsa-vol+hotel&c&msclkid=56347383b7451c50dfd31683f0c8655a">CGU</a></p><br><br><br>
+      </div>
+      </footer>
+</body>
+</html>

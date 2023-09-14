@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,400;0,600;1,300&family=Roboto:wght@400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: radial-gradient(#fff,#eaf2fb);
+    line-height: 0px;
+}
+.logo{
+    margin:0px;
+    padding: 10px;
+}
+.logo img{
+    width: 140px;
+    height: 80px;
+    border-radius: 40px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+     flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #555;
+}
+
+header{
+    margin-top: 0px;
+    background: url(./images/background1.jpg) 100% fixed;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1.titre{
+    margin-top: 20px;
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+h3.slogan{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+#destinations h3{
+    color: #373737;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+#destinations{
+    margin-top: 30px;
+}
+div.destination_item{
+    background-color: #373737;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+    flex: 1 0 20%;
+}
+div.destination_item:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+div.destination_group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div.destination_group img{
+    width: 200px;
+    height: 200px;
+}
+.box_1{background: url(images/indonésie.jpg);}
+.box_2{background: url(images/dubai.jpg);}
+.box_3{background: url(images/moscouw.jpg);}
+.box_4{background: url(images/venise.jpg);}
+.box_5{background: url(images/newyork.jpg);}
+.box_6{background: url(images/ottawa.jpg);}
+.box_7{background: url(images/pékin.jpg);}
+.box_8{background: url(images/baçalona.jpg);}
+.box_9{background: url(images/location_vehicu.jpg);}
+
+span.nom{
+    position: relative;
+    color:#373737;
+    background-color:#fff;
+    top: 20px;
+    float: right;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+i.prix{
+    position: relative;
+    color: #fff;
+    background-color: #EF8F1D;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    top: 220px;
+}
+/* formulaire de recherche */
+header form{
+    background-color: #EF8F1D;
+    padding: 20px;
+}
+
+.form_group{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.form_group input, select, option{
+    border: none;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.form_group input{
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.form_group label{
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.form_submit{
+    margin: 15px;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.form_submit input{
+    background-color: #373737;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 4px 15px;
+
+}
+#destinations h3{
+    font-size: 20px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1.Publicite{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.row h3{
+    display: inline-block;
+    color:#000;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row_5 p{
+    color:#000;
+    margin-top: 6px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    font-size: 16px;
+}
+footer{
+    background-color: #000;
+    margin-top: 30px;
+}
+.conn .reseaux h3{
+    display: inline-block;
+    margin-top:30px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.reseau nav ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.reseau nav ul li a img{
+    margin: 30px 90px 90px 90px;
+    width: 35px;
+    height: 35px;
+    border-radius: 40px;
+}
+
+.com p{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 13px;
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
